@@ -5,7 +5,7 @@ public class LibraryManagement {
 	public static void main(String[] args) {
 
 		Library Books = new Library();
-		String BookName = Books.addBook("SELENIUM BOOK");
+		String BookName = Books.addBook("Harry Potter part-2");
 		
 		System.out.println("The Name of Book added is - " +BookName);
 		
