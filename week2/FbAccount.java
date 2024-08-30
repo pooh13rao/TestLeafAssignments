@@ -13,17 +13,11 @@ public class FbAccount {
 
 	public static void main(String[] args) throws InterruptedException {
 		ChromeDriver driver = new ChromeDriver();
-		// Wait method to wait for 10sec untill the web element is located
-		WebDriverWait wait = new WebDriverWait(driver,  Duration.ofSeconds(10));
 		driver.manage().window().maximize();
 		driver.get("https://en-gb.facebook.com/");
 		driver.findElement(By.linkText("Create new account")).click();
-		Thread.sleep(300);
-	//	driver.findElement(By.name("firstname")).sendKeys("Pooja");
-		//driver.findElement(By.xpath("//input[@name='firstname']")).sendKeys("Pooja");
-
-		// Wait for 10sec until the element is located 
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("firstname"))).sendKeys("Pooja");
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//input[@name='firstname']")).sendKeys("Pooja");
 		driver.findElement(By.name("lastname")).sendKeys("Rao");
 		driver.findElement(By.name("reg_email__")).sendKeys("9876543210");
 		driver.findElement(By.id("password_step_input")).sendKeys("Test@123");
