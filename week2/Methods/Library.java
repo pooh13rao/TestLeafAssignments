@@ -11,4 +11,11 @@ public class Library {
 			System.out.println("Book issued successfully");
 			
 		}
+	public static void main(String[] args) throws InterruptedException {
+			
+			Library Books = new Library();
+			String BookName = Books.addBook("Harry Potter part-1");		
+			System.out.println("The Name of Book added is - " +BookName);	
+			Books.issueBook();
+		}
 }
