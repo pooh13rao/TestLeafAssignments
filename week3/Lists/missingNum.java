@@ -10,7 +10,7 @@ public class missingNum {
 
 		int[] arr =  {1, 2, 3, 4, 10, 6, 8};
 		Arrays.sort(arr);
-		System.out.println("Sorted Array Is:");
+		// System.out.println("Sorted Array Is:");
 		for (int num : arr) {
 			System.out.println(num);
 		}
