@@ -16,10 +16,10 @@ public class ReverseOdd {
 				// Reverse the word at odd index using String Builder as this has pre defined
 				// method reverse()
 				StringBuilder newString = new StringBuilder(input[i]);
-				System.out.println(" before reverse  " + input[i]);
+				//System.out.println(" before reverse  " + input[i]);
 
 				input[i] = newString.reverse().toString();
-				System.out.println(" after reverse  " + input[i]);
+				//System.out.println(" after reverse  " + input[i]);
 
 			}
 			System.out.print(" " + input[i]);
