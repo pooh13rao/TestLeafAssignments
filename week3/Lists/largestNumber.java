@@ -3,7 +3,7 @@ package assignments.week3.Lists;
 import java.util.ArrayList;
 import java.util.List;
 
-public class largestNumber {
+public class secondLargest {
 
 	public static void main(String[] args) {
 		int numList[] = { 3, 2, 11, 4, 6, 7};
