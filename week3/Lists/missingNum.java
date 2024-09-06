@@ -8,7 +8,7 @@ public class missingNum {
 
 	public static void main(String[] args) {
 
-		int[] arr = { 1, 4, 2, 8, 6, 7 };
+		int[] arr =  {1, 2, 3, 4, 10, 6, 8};
 		Arrays.sort(arr);
 		System.out.println("Sorted Array Is:");
 		for (int num : arr) {
