@@ -13,7 +13,7 @@ public class Uppercase {
 			if (i % 2 != 0) {
 				// change the character to uppercase if the index is odd
 				arr[i] = Character.toUpperCase(arr[i]);
-				System.out.println(arr[i]);
+				//System.out.println(arr[i]);
 			}
 		}
 		//character to String convert
