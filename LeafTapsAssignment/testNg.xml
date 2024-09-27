@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Cucumber Suite" verbose="1">
+    <test name="Run First Test">
+        <classes>
+            <class name="testRunner.CreateRunner"/>
+        </classes>
+    </test>
+    <test name="Run Second Test">
+        <classes>
+            <class name="testRunner.EditRunner"/>
+        </classes>
+    </test>
+    <test name="Run Third Test">
+        <classes>
+            <class name="testRunner.DeleteRunner"/>
+        </classes>
+    </test>
+</suite>
